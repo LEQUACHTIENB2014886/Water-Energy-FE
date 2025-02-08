@@ -5,7 +5,7 @@
       <el-container class="content">
         <el-aside class="sidebar" width="120px"><Navbar /></el-aside>
         <el-main class="main-content">
-          <router-view /> 
+          <router-view />
         </el-main>
       </el-container>
     </el-container>
@@ -14,7 +14,7 @@
 
 <script setup>
 import Header from "@components/Header.vue";
-import Navbar from "@/components/Navbar.vue"; 
+import Navbar from "@/components/Navbar.vue";
 </script>
 
 <style scoped>
@@ -33,7 +33,7 @@ import Navbar from "@/components/Navbar.vue";
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #98e98d; 
+  background-color: #98e98d;
   z-index: 1000;
   display: flex;
   align-items: center;

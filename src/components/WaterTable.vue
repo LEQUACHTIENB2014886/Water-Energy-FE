@@ -1,8 +1,8 @@
 <template>
   <div id="DemoPage">
     <div class="title">
-      <img src="../assets/water.png" alt="water" class="icon">
-      <h1> Water</h1>
+      <img src="../assets/water.png" alt="water" class="icon" />
+      <h1>Water</h1>
     </div>
     <ry-edit-table
       ref="ryEditTable"
@@ -237,7 +237,7 @@ export default {
   display: flex;
   align-items: center;
   gap: 10px;
-  color:rgba(61, 243, 243, 0.973);
+  color: rgba(61, 243, 243, 0.973);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   justify-content: center;
   padding: 20px;
