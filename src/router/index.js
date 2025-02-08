@@ -35,19 +35,6 @@ const routes = [
       { path: '', redirect: 'input' },
     ],
   },
-  // {
-  //   path: "/n44_report",
-  //   name: "",
-  //   component: N44_report,
-  //   beforeEnter: (to, from, next) => {
-  //     if (!localStorage.getItem("USERID")) {
-  //       next('/login')
-  //     } else {
-  //       next()
-  //     }
-  //   },
-  // }
-
 ];
 
 const router = createRouter({
