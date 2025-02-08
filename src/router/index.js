@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Input from '../views/Input.vue';
 import Analyze from '../views/Analyze.vue';
-
+import LoginPage from '../views/LoginPage.vue';
 const routes = [
   {
     path: '/',
@@ -12,6 +12,10 @@ const routes = [
       { path: 'analyze', component: Analyze },
       { path: '', redirect: 'input' },
     ],
+  },
+  {
+    path: '/login',
+    component: LoginPage,
   },
 ];
 
